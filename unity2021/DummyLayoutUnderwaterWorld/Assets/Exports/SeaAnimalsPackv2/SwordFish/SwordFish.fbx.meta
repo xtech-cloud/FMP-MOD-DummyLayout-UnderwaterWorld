@@ -1,0 +1,462 @@
+fileFormatVersion: 2
+guid: b1d64a8bbdbc75f48be0840b2bb17b95
+timeCreated: 1486321984
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body1
+    100002: finR
+    100004: finR_end
+    100006: finS
+    100008: finS_end
+    100010: Head
+    100012: mouth
+    100014: mouth_end
+    100016: //RootNode
+    100018: SwordFish
+    100020: SwordFishLOD
+    100022: SwordFishSkeleton
+    100024: Tail1
+    100026: Tail2
+    100028: Tail2_end
+    400000: Body1
+    400002: finR
+    400004: finR_end
+    400006: finS
+    400008: finS_end
+    400010: Head
+    400012: mouth
+    400014: mouth_end
+    400016: //RootNode
+    400018: SwordFish
+    400020: SwordFishLOD
+    400022: SwordFishSkeleton
+    400024: Tail1
+    400026: Tail2
+    400028: Tail2_end
+    4300000: SwordFishLOD
+    4300002: SwordFish
+    7400000: attack
+    7400002: death
+    7400004: eat
+    7400006: hurt
+    7400008: idle swim
+    7400010: SwordFishSkeleton|posa
+    7400012: run swim
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: SwordFish
+    13700002: SwordFishLOD
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: attack
+      takeName: SwordFishSkeleton|attack
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SwordFish
+        weight: 1
+      - path: SwordFishLOD
+        weight: 1
+      - path: SwordFishSkeleton
+        weight: 1
+      - path: SwordFishSkeleton/Body1
+        weight: 1
+      - path: SwordFishSkeleton/Body1/finR
+        weight: 1
+      - path: SwordFishSkeleton/Body1/finR/finR_end
+        weight: 1
+      - path: SwordFishSkeleton/Body1/finS
+        weight: 1
+      - path: SwordFishSkeleton/Body1/finS/finS_end
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Head
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Head/mouth
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Head/mouth/mouth_end
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Tail1
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Tail1/Tail2
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Tail1/Tail2/Tail2_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: SwordFishSkeleton|death
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SwordFish
+        weight: 1
+      - path: SwordFishLOD
+        weight: 1
+      - path: SwordFishSkeleton
+        weight: 1
+      - path: SwordFishSkeleton/Body1
+        weight: 1
+      - path: SwordFishSkeleton/Body1/finR
+        weight: 1
+      - path: SwordFishSkeleton/Body1/finR/finR_end
+        weight: 1
+      - path: SwordFishSkeleton/Body1/finS
+        weight: 1
+      - path: SwordFishSkeleton/Body1/finS/finS_end
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Head
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Head/mouth
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Head/mouth/mouth_end
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Tail1
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Tail1/Tail2
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Tail1/Tail2/Tail2_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: eat
+      takeName: SwordFishSkeleton|eat
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SwordFish
+        weight: 1
+      - path: SwordFishLOD
+        weight: 1
+      - path: SwordFishSkeleton
+        weight: 1
+      - path: SwordFishSkeleton/Body1
+        weight: 1
+      - path: SwordFishSkeleton/Body1/finR
+        weight: 1
+      - path: SwordFishSkeleton/Body1/finR/finR_end
+        weight: 1
+      - path: SwordFishSkeleton/Body1/finS
+        weight: 1
+      - path: SwordFishSkeleton/Body1/finS/finS_end
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Head
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Head/mouth
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Head/mouth/mouth_end
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Tail1
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Tail1/Tail2
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Tail1/Tail2/Tail2_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hurt
+      takeName: SwordFishSkeleton|hurt
+      firstFrame: 0
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SwordFish
+        weight: 1
+      - path: SwordFishLOD
+        weight: 1
+      - path: SwordFishSkeleton
+        weight: 1
+      - path: SwordFishSkeleton/Body1
+        weight: 1
+      - path: SwordFishSkeleton/Body1/finR
+        weight: 1
+      - path: SwordFishSkeleton/Body1/finR/finR_end
+        weight: 1
+      - path: SwordFishSkeleton/Body1/finS
+        weight: 1
+      - path: SwordFishSkeleton/Body1/finS/finS_end
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Head
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Head/mouth
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Head/mouth/mouth_end
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Tail1
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Tail1/Tail2
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Tail1/Tail2/Tail2_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle swim
+      takeName: SwordFishSkeleton|idle swim
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SwordFish
+        weight: 1
+      - path: SwordFishLOD
+        weight: 1
+      - path: SwordFishSkeleton
+        weight: 1
+      - path: SwordFishSkeleton/Body1
+        weight: 1
+      - path: SwordFishSkeleton/Body1/finR
+        weight: 1
+      - path: SwordFishSkeleton/Body1/finR/finR_end
+        weight: 1
+      - path: SwordFishSkeleton/Body1/finS
+        weight: 1
+      - path: SwordFishSkeleton/Body1/finS/finS_end
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Head
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Head/mouth
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Head/mouth/mouth_end
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Tail1
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Tail1/Tail2
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Tail1/Tail2/Tail2_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run swim
+      takeName: SwordFishSkeleton|run swim
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SwordFish
+        weight: 1
+      - path: SwordFishLOD
+        weight: 1
+      - path: SwordFishSkeleton
+        weight: 1
+      - path: SwordFishSkeleton/Body1
+        weight: 1
+      - path: SwordFishSkeleton/Body1/finR
+        weight: 1
+      - path: SwordFishSkeleton/Body1/finR/finR_end
+        weight: 1
+      - path: SwordFishSkeleton/Body1/finS
+        weight: 1
+      - path: SwordFishSkeleton/Body1/finS/finS_end
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Head
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Head/mouth
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Head/mouth/mouth_end
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Tail1
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Tail1/Tail2
+        weight: 1
+      - path: SwordFishSkeleton/Body1/Tail1/Tail2/Tail2_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

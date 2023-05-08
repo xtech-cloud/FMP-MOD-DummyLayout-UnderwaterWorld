@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using LibMVCS = XTC.FMP.LIB.MVCS;
 using XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.MVCS;
+using Unity.VisualScripting;
 
 namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
 {
@@ -18,6 +19,40 @@ namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
             : base(_mono, _config, _catalog, _settings, _logger, _entry)
         {
         }
+
+        public void Inlay(string _layer, string _pattern, int _virtualResolutionWidth, int _virtualResolutionHeight, Transform _uiSlot)
+        {
+
+        }
+
+        public void OnLayoutEnter(string _layer, string _pattern, float _duration)
+        {
+
+        }
+
+        public void OnLayoutExit(string _layer, string _pattern)
+        {
+
+        }
+
+        public void OnInTransitionEnter(string _layer, string _pattern, float _duration)
+        {
+
+        }
+
+        public void OnInTransitionExit(string _layer, string _pattern)
+        {
+        }
+
+        public void OnOutTransitionEnter(string _layer, string _pattern, float _duration)
+        {
+
+        }
+
+        public void OnOutTransitionExit(string _layer, string _pattern)
+        {
+        }
+
     }
 }
 

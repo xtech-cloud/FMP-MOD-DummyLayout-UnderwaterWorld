@@ -1,0 +1,402 @@
+fileFormatVersion: 2
+guid: 2f6cb2d5752b93145954ccf674ab2401
+timeCreated: 1486321982
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Head
+    100002: //RootNode
+    100004: Medusa
+    100006: MedusaLOD
+    100008: MedusaSea
+    100010: tentacle1
+    100012: tentacle1.003
+    100014: tentacle10
+    100016: tentacle10_end
+    100018: tentacle11
+    100020: tentacle12
+    100022: tentacle13
+    100024: tentacle13_end
+    100026: tentacle14
+    100028: tentacle15
+    100030: tentacle16
+    100032: tentacle16_end
+    100034: tentacle17
+    100036: tentacle18
+    100038: tentacle19
+    100040: tentacle19_end
+    100042: tentacle2
+    100044: tentacle2.003
+    100046: tentacle3
+    100048: tentacle3.003
+    100050: tentacle3.003_end
+    100052: tentacle3_end
+    100054: tentacle8
+    100056: tentacle9
+    400000: Head
+    400002: //RootNode
+    400004: Medusa
+    400006: MedusaLOD
+    400008: MedusaSea
+    400010: tentacle1
+    400012: tentacle1.003
+    400014: tentacle10
+    400016: tentacle10_end
+    400018: tentacle11
+    400020: tentacle12
+    400022: tentacle13
+    400024: tentacle13_end
+    400026: tentacle14
+    400028: tentacle15
+    400030: tentacle16
+    400032: tentacle16_end
+    400034: tentacle17
+    400036: tentacle18
+    400038: tentacle19
+    400040: tentacle19_end
+    400042: tentacle2
+    400044: tentacle2.003
+    400046: tentacle3
+    400048: tentacle3.003
+    400050: tentacle3.003_end
+    400052: tentacle3_end
+    400054: tentacle8
+    400056: tentacle9
+    4300000: MedusaLOD
+    4300002: Medusa
+    7400000: death
+    7400002: 'idle '
+    7400004: MedusaSea|idle .001
+    7400006: MedusaSea|POSE
+    7400008: swim
+    7400010: MedusaLOD|idle .001
+    7400012: MedusaLOD|POSE
+    7400014: 'Medusa|idle '
+    7400016: Medusa|POSE
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Medusa
+    13700002: MedusaLOD
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: death
+      takeName: MedusaSea|death
+      firstFrame: 0
+      lastFrame: 145
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Medusa
+        weight: 1
+      - path: MedusaLOD
+        weight: 1
+      - path: MedusaSea
+        weight: 1
+      - path: MedusaSea/Head
+        weight: 1
+      - path: MedusaSea/Head/tentacle1
+        weight: 1
+      - path: MedusaSea/Head/tentacle1/tentacle2
+        weight: 1
+      - path: MedusaSea/Head/tentacle1/tentacle2/tentacle3
+        weight: 1
+      - path: MedusaSea/Head/tentacle1/tentacle2/tentacle3/tentacle3_end
+        weight: 1
+      - path: MedusaSea/Head/tentacle1.003
+        weight: 1
+      - path: MedusaSea/Head/tentacle1.003/tentacle2.003
+        weight: 1
+      - path: MedusaSea/Head/tentacle1.003/tentacle2.003/tentacle3.003
+        weight: 1
+      - path: MedusaSea/Head/tentacle1.003/tentacle2.003/tentacle3.003/tentacle3.003_end
+        weight: 1
+      - path: MedusaSea/Head/tentacle9
+        weight: 1
+      - path: MedusaSea/Head/tentacle9/tentacle8
+        weight: 1
+      - path: MedusaSea/Head/tentacle9/tentacle8/tentacle10
+        weight: 1
+      - path: MedusaSea/Head/tentacle9/tentacle8/tentacle10/tentacle10_end
+        weight: 1
+      - path: MedusaSea/Head/tentacle11
+        weight: 1
+      - path: MedusaSea/Head/tentacle11/tentacle12
+        weight: 1
+      - path: MedusaSea/Head/tentacle11/tentacle12/tentacle13
+        weight: 1
+      - path: MedusaSea/Head/tentacle11/tentacle12/tentacle13/tentacle13_end
+        weight: 1
+      - path: MedusaSea/Head/tentacle14
+        weight: 1
+      - path: MedusaSea/Head/tentacle14/tentacle15
+        weight: 1
+      - path: MedusaSea/Head/tentacle14/tentacle15/tentacle16
+        weight: 1
+      - path: MedusaSea/Head/tentacle14/tentacle15/tentacle16/tentacle16_end
+        weight: 1
+      - path: MedusaSea/Head/tentacle17
+        weight: 1
+      - path: MedusaSea/Head/tentacle17/tentacle18
+        weight: 1
+      - path: MedusaSea/Head/tentacle17/tentacle18/tentacle19
+        weight: 1
+      - path: MedusaSea/Head/tentacle17/tentacle18/tentacle19/tentacle19_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 'idle '
+      takeName: 'MedusaSea|idle '
+      firstFrame: 0
+      lastFrame: 99
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Medusa
+        weight: 1
+      - path: MedusaLOD
+        weight: 1
+      - path: MedusaSea
+        weight: 1
+      - path: MedusaSea/Head
+        weight: 1
+      - path: MedusaSea/Head/tentacle1
+        weight: 1
+      - path: MedusaSea/Head/tentacle1/tentacle2
+        weight: 1
+      - path: MedusaSea/Head/tentacle1/tentacle2/tentacle3
+        weight: 1
+      - path: MedusaSea/Head/tentacle1/tentacle2/tentacle3/tentacle3_end
+        weight: 1
+      - path: MedusaSea/Head/tentacle1.003
+        weight: 1
+      - path: MedusaSea/Head/tentacle1.003/tentacle2.003
+        weight: 1
+      - path: MedusaSea/Head/tentacle1.003/tentacle2.003/tentacle3.003
+        weight: 1
+      - path: MedusaSea/Head/tentacle1.003/tentacle2.003/tentacle3.003/tentacle3.003_end
+        weight: 1
+      - path: MedusaSea/Head/tentacle9
+        weight: 1
+      - path: MedusaSea/Head/tentacle9/tentacle8
+        weight: 1
+      - path: MedusaSea/Head/tentacle9/tentacle8/tentacle10
+        weight: 1
+      - path: MedusaSea/Head/tentacle9/tentacle8/tentacle10/tentacle10_end
+        weight: 1
+      - path: MedusaSea/Head/tentacle11
+        weight: 1
+      - path: MedusaSea/Head/tentacle11/tentacle12
+        weight: 1
+      - path: MedusaSea/Head/tentacle11/tentacle12/tentacle13
+        weight: 1
+      - path: MedusaSea/Head/tentacle11/tentacle12/tentacle13/tentacle13_end
+        weight: 1
+      - path: MedusaSea/Head/tentacle14
+        weight: 1
+      - path: MedusaSea/Head/tentacle14/tentacle15
+        weight: 1
+      - path: MedusaSea/Head/tentacle14/tentacle15/tentacle16
+        weight: 1
+      - path: MedusaSea/Head/tentacle14/tentacle15/tentacle16/tentacle16_end
+        weight: 1
+      - path: MedusaSea/Head/tentacle17
+        weight: 1
+      - path: MedusaSea/Head/tentacle17/tentacle18
+        weight: 1
+      - path: MedusaSea/Head/tentacle17/tentacle18/tentacle19
+        weight: 1
+      - path: MedusaSea/Head/tentacle17/tentacle18/tentacle19/tentacle19_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: swim
+      takeName: MedusaSea|swim
+      firstFrame: 0
+      lastFrame: 99
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Medusa
+        weight: 1
+      - path: MedusaLOD
+        weight: 1
+      - path: MedusaSea
+        weight: 1
+      - path: MedusaSea/Head
+        weight: 1
+      - path: MedusaSea/Head/tentacle1
+        weight: 1
+      - path: MedusaSea/Head/tentacle1/tentacle2
+        weight: 1
+      - path: MedusaSea/Head/tentacle1/tentacle2/tentacle3
+        weight: 1
+      - path: MedusaSea/Head/tentacle1/tentacle2/tentacle3/tentacle3_end
+        weight: 1
+      - path: MedusaSea/Head/tentacle1.003
+        weight: 1
+      - path: MedusaSea/Head/tentacle1.003/tentacle2.003
+        weight: 1
+      - path: MedusaSea/Head/tentacle1.003/tentacle2.003/tentacle3.003
+        weight: 1
+      - path: MedusaSea/Head/tentacle1.003/tentacle2.003/tentacle3.003/tentacle3.003_end
+        weight: 1
+      - path: MedusaSea/Head/tentacle9
+        weight: 1
+      - path: MedusaSea/Head/tentacle9/tentacle8
+        weight: 1
+      - path: MedusaSea/Head/tentacle9/tentacle8/tentacle10
+        weight: 1
+      - path: MedusaSea/Head/tentacle9/tentacle8/tentacle10/tentacle10_end
+        weight: 1
+      - path: MedusaSea/Head/tentacle11
+        weight: 1
+      - path: MedusaSea/Head/tentacle11/tentacle12
+        weight: 1
+      - path: MedusaSea/Head/tentacle11/tentacle12/tentacle13
+        weight: 1
+      - path: MedusaSea/Head/tentacle11/tentacle12/tentacle13/tentacle13_end
+        weight: 1
+      - path: MedusaSea/Head/tentacle14
+        weight: 1
+      - path: MedusaSea/Head/tentacle14/tentacle15
+        weight: 1
+      - path: MedusaSea/Head/tentacle14/tentacle15/tentacle16
+        weight: 1
+      - path: MedusaSea/Head/tentacle14/tentacle15/tentacle16/tentacle16_end
+        weight: 1
+      - path: MedusaSea/Head/tentacle17
+        weight: 1
+      - path: MedusaSea/Head/tentacle17/tentacle18
+        weight: 1
+      - path: MedusaSea/Head/tentacle17/tentacle18/tentacle19
+        weight: 1
+      - path: MedusaSea/Head/tentacle17/tentacle18/tentacle19/tentacle19_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

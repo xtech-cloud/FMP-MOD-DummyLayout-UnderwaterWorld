@@ -170,6 +170,7 @@ MonoBehaviour:
   mainCanvas: {fileID: 1388270489}
   mainWorld: {fileID: 1833906195}
   exportRoot: {fileID: 790474682}
+  mainFont: {fileID: 0}
 --- !u!1 &539637067
 GameObject:
   m_ObjectHideFlags: 0

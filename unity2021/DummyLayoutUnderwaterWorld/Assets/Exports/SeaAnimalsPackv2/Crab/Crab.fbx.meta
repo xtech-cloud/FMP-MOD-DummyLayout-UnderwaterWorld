@@ -1,0 +1,1162 @@
+fileFormatVersion: 2
+guid: 14cb46a4487b65342b68b15b4664d7fe
+timeCreated: 1486321981
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body
+    100002: ClawL1
+    100004: ClawL2
+    100006: ClawL3
+    100008: ClawL3_end
+    100010: ClawL4
+    100012: ClawL4_end
+    100014: ClawR1
+    100016: ClawR2
+    100018: ClawR3
+    100020: ClawR3_end
+    100022: ClawR4
+    100024: ClawR4_end
+    100026: //RootNode
+    100028: Crab
+    100030: CrabLOD
+    100032: CrabSkeleton
+    100034: leg r 10
+    100036: leg r 10_end
+    100038: leg r 12
+    100040: leg r 14
+    100042: leg r 17
+    100044: leg r 19
+    100046: leg r 2
+    100048: leg r 3
+    100050: leg r 4
+    100052: leg r 5
+    100054: leg r 5_end
+    100056: leg r 7
+    100058: leg r 8
+    100060: leg r 9
+    100062: leg r13
+    100064: leg r15
+    100066: leg r15_end
+    100068: leg r18
+    100070: leg r20
+    100072: leg r20_end
+    100074: legL1
+    100076: legL10
+    100078: legL11
+    100080: legL11_end
+    100082: legL12
+    100084: legL13
+    100086: legL14
+    100088: legL15
+    100090: legL17
+    100092: legL17_end
+    100094: legL18
+    100096: legL19
+    100098: legL2
+    100100: legL20
+    100102: legL21
+    100104: legL22
+    100106: legL22_end
+    100108: legL3
+    100110: legL4
+    100112: legL5
+    100114: legL5_end
+    100116: legL6
+    100118: legL8
+    100120: legL9
+    100122: legR1
+    100124: legR11
+    100126: legR16
+    100128: legR6
+    400000: Body
+    400002: ClawL1
+    400004: ClawL2
+    400006: ClawL3
+    400008: ClawL3_end
+    400010: ClawL4
+    400012: ClawL4_end
+    400014: ClawR1
+    400016: ClawR2
+    400018: ClawR3
+    400020: ClawR3_end
+    400022: ClawR4
+    400024: ClawR4_end
+    400026: //RootNode
+    400028: Crab
+    400030: CrabLOD
+    400032: CrabSkeleton
+    400034: leg r 10
+    400036: leg r 10_end
+    400038: leg r 12
+    400040: leg r 14
+    400042: leg r 17
+    400044: leg r 19
+    400046: leg r 2
+    400048: leg r 3
+    400050: leg r 4
+    400052: leg r 5
+    400054: leg r 5_end
+    400056: leg r 7
+    400058: leg r 8
+    400060: leg r 9
+    400062: leg r13
+    400064: leg r15
+    400066: leg r15_end
+    400068: leg r18
+    400070: leg r20
+    400072: leg r20_end
+    400074: legL1
+    400076: legL10
+    400078: legL11
+    400080: legL11_end
+    400082: legL12
+    400084: legL13
+    400086: legL14
+    400088: legL15
+    400090: legL17
+    400092: legL17_end
+    400094: legL18
+    400096: legL19
+    400098: legL2
+    400100: legL20
+    400102: legL21
+    400104: legL22
+    400106: legL22_end
+    400108: legL3
+    400110: legL4
+    400112: legL5
+    400114: legL5_end
+    400116: legL6
+    400118: legL8
+    400120: legL9
+    400122: legR1
+    400124: legR11
+    400126: legR16
+    400128: legR6
+    4300000: CrabLOD
+    4300002: Crab
+    7400000: attack
+    7400002: death
+    7400004: hurt
+    7400006: idle
+    7400008: CrabSkeleton|pose
+    7400010: walk left
+    7400012: walk right
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Crab
+    13700002: CrabLOD
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: attack
+      takeName: CrabSkeleton|attack
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Crab
+        weight: 1
+      - path: CrabLOD
+        weight: 1
+      - path: CrabSkeleton
+        weight: 1
+      - path: CrabSkeleton/Body
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1/ClawL2
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1/ClawL2/ClawL3
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1/ClawL2/ClawL3/ClawL3_end
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1/ClawL2/ClawL4
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1/ClawL2/ClawL4/ClawL4_end
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1/ClawR2
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1/ClawR2/ClawR3
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1/ClawR2/ClawR3/ClawR3_end
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1/ClawR2/ClawR4
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1/ClawR2/ClawR4/ClawR4_end
+        weight: 1
+      - path: CrabSkeleton/Body/legL1
+        weight: 1
+      - path: CrabSkeleton/Body/legL1/legL2
+        weight: 1
+      - path: CrabSkeleton/Body/legL1/legL2/legL3
+        weight: 1
+      - path: CrabSkeleton/Body/legL1/legL2/legL3/legL4
+        weight: 1
+      - path: CrabSkeleton/Body/legL1/legL2/legL3/legL4/legL5
+        weight: 1
+      - path: CrabSkeleton/Body/legL1/legL2/legL3/legL4/legL5/legL5_end
+        weight: 1
+      - path: CrabSkeleton/Body/legL6
+        weight: 1
+      - path: CrabSkeleton/Body/legL6/legL8
+        weight: 1
+      - path: CrabSkeleton/Body/legL6/legL8/legL9
+        weight: 1
+      - path: CrabSkeleton/Body/legL6/legL8/legL9/legL10
+        weight: 1
+      - path: CrabSkeleton/Body/legL6/legL8/legL9/legL10/legL11
+        weight: 1
+      - path: CrabSkeleton/Body/legL6/legL8/legL9/legL10/legL11/legL11_end
+        weight: 1
+      - path: CrabSkeleton/Body/legL12
+        weight: 1
+      - path: CrabSkeleton/Body/legL12/legL13
+        weight: 1
+      - path: CrabSkeleton/Body/legL12/legL13/legL14
+        weight: 1
+      - path: CrabSkeleton/Body/legL12/legL13/legL14/legL15
+        weight: 1
+      - path: CrabSkeleton/Body/legL12/legL13/legL14/legL15/legL17
+        weight: 1
+      - path: CrabSkeleton/Body/legL12/legL13/legL14/legL15/legL17/legL17_end
+        weight: 1
+      - path: CrabSkeleton/Body/legL18
+        weight: 1
+      - path: CrabSkeleton/Body/legL18/legL19
+        weight: 1
+      - path: CrabSkeleton/Body/legL18/legL19/legL20
+        weight: 1
+      - path: CrabSkeleton/Body/legL18/legL19/legL20/legL21
+        weight: 1
+      - path: CrabSkeleton/Body/legL18/legL19/legL20/legL21/legL22
+        weight: 1
+      - path: CrabSkeleton/Body/legL18/legL19/legL20/legL21/legL22/legL22_end
+        weight: 1
+      - path: CrabSkeleton/Body/legR1
+        weight: 1
+      - path: CrabSkeleton/Body/legR1/leg r 2
+        weight: 1
+      - path: CrabSkeleton/Body/legR1/leg r 2/leg r 3
+        weight: 1
+      - path: CrabSkeleton/Body/legR1/leg r 2/leg r 3/leg r 4
+        weight: 1
+      - path: CrabSkeleton/Body/legR1/leg r 2/leg r 3/leg r 4/leg r 5
+        weight: 1
+      - path: CrabSkeleton/Body/legR1/leg r 2/leg r 3/leg r 4/leg r 5/leg r 5_end
+        weight: 1
+      - path: CrabSkeleton/Body/legR6
+        weight: 1
+      - path: CrabSkeleton/Body/legR6/leg r 7
+        weight: 1
+      - path: CrabSkeleton/Body/legR6/leg r 7/leg r 8
+        weight: 1
+      - path: CrabSkeleton/Body/legR6/leg r 7/leg r 8/leg r 9
+        weight: 1
+      - path: CrabSkeleton/Body/legR6/leg r 7/leg r 8/leg r 9/leg r 10
+        weight: 1
+      - path: CrabSkeleton/Body/legR6/leg r 7/leg r 8/leg r 9/leg r 10/leg r 10_end
+        weight: 1
+      - path: CrabSkeleton/Body/legR11
+        weight: 1
+      - path: CrabSkeleton/Body/legR11/leg r 12
+        weight: 1
+      - path: CrabSkeleton/Body/legR11/leg r 12/leg r13
+        weight: 1
+      - path: CrabSkeleton/Body/legR11/leg r 12/leg r13/leg r 14
+        weight: 1
+      - path: CrabSkeleton/Body/legR11/leg r 12/leg r13/leg r 14/leg r15
+        weight: 1
+      - path: CrabSkeleton/Body/legR11/leg r 12/leg r13/leg r 14/leg r15/leg r15_end
+        weight: 1
+      - path: CrabSkeleton/Body/legR16
+        weight: 1
+      - path: CrabSkeleton/Body/legR16/leg r 17
+        weight: 1
+      - path: CrabSkeleton/Body/legR16/leg r 17/leg r18
+        weight: 1
+      - path: CrabSkeleton/Body/legR16/leg r 17/leg r18/leg r 19
+        weight: 1
+      - path: CrabSkeleton/Body/legR16/leg r 17/leg r18/leg r 19/leg r20
+        weight: 1
+      - path: CrabSkeleton/Body/legR16/leg r 17/leg r18/leg r 19/leg r20/leg r20_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: CrabSkeleton|death
+      firstFrame: 0
+      lastFrame: 44
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Crab
+        weight: 1
+      - path: CrabLOD
+        weight: 1
+      - path: CrabSkeleton
+        weight: 1
+      - path: CrabSkeleton/Body
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1/ClawL2
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1/ClawL2/ClawL3
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1/ClawL2/ClawL3/ClawL3_end
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1/ClawL2/ClawL4
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1/ClawL2/ClawL4/ClawL4_end
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1/ClawR2
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1/ClawR2/ClawR3
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1/ClawR2/ClawR3/ClawR3_end
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1/ClawR2/ClawR4
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1/ClawR2/ClawR4/ClawR4_end
+        weight: 1
+      - path: CrabSkeleton/Body/legL1
+        weight: 1
+      - path: CrabSkeleton/Body/legL1/legL2
+        weight: 1
+      - path: CrabSkeleton/Body/legL1/legL2/legL3
+        weight: 1
+      - path: CrabSkeleton/Body/legL1/legL2/legL3/legL4
+        weight: 1
+      - path: CrabSkeleton/Body/legL1/legL2/legL3/legL4/legL5
+        weight: 1
+      - path: CrabSkeleton/Body/legL1/legL2/legL3/legL4/legL5/legL5_end
+        weight: 1
+      - path: CrabSkeleton/Body/legL6
+        weight: 1
+      - path: CrabSkeleton/Body/legL6/legL8
+        weight: 1
+      - path: CrabSkeleton/Body/legL6/legL8/legL9
+        weight: 1
+      - path: CrabSkeleton/Body/legL6/legL8/legL9/legL10
+        weight: 1
+      - path: CrabSkeleton/Body/legL6/legL8/legL9/legL10/legL11
+        weight: 1
+      - path: CrabSkeleton/Body/legL6/legL8/legL9/legL10/legL11/legL11_end
+        weight: 1
+      - path: CrabSkeleton/Body/legL12
+        weight: 1
+      - path: CrabSkeleton/Body/legL12/legL13
+        weight: 1
+      - path: CrabSkeleton/Body/legL12/legL13/legL14
+        weight: 1
+      - path: CrabSkeleton/Body/legL12/legL13/legL14/legL15
+        weight: 1
+      - path: CrabSkeleton/Body/legL12/legL13/legL14/legL15/legL17
+        weight: 1
+      - path: CrabSkeleton/Body/legL12/legL13/legL14/legL15/legL17/legL17_end
+        weight: 1
+      - path: CrabSkeleton/Body/legL18
+        weight: 1
+      - path: CrabSkeleton/Body/legL18/legL19
+        weight: 1
+      - path: CrabSkeleton/Body/legL18/legL19/legL20
+        weight: 1
+      - path: CrabSkeleton/Body/legL18/legL19/legL20/legL21
+        weight: 1
+      - path: CrabSkeleton/Body/legL18/legL19/legL20/legL21/legL22
+        weight: 1
+      - path: CrabSkeleton/Body/legL18/legL19/legL20/legL21/legL22/legL22_end
+        weight: 1
+      - path: CrabSkeleton/Body/legR1
+        weight: 1
+      - path: CrabSkeleton/Body/legR1/leg r 2
+        weight: 1
+      - path: CrabSkeleton/Body/legR1/leg r 2/leg r 3
+        weight: 1
+      - path: CrabSkeleton/Body/legR1/leg r 2/leg r 3/leg r 4
+        weight: 1
+      - path: CrabSkeleton/Body/legR1/leg r 2/leg r 3/leg r 4/leg r 5
+        weight: 1
+      - path: CrabSkeleton/Body/legR1/leg r 2/leg r 3/leg r 4/leg r 5/leg r 5_end
+        weight: 1
+      - path: CrabSkeleton/Body/legR6
+        weight: 1
+      - path: CrabSkeleton/Body/legR6/leg r 7
+        weight: 1
+      - path: CrabSkeleton/Body/legR6/leg r 7/leg r 8
+        weight: 1
+      - path: CrabSkeleton/Body/legR6/leg r 7/leg r 8/leg r 9
+        weight: 1
+      - path: CrabSkeleton/Body/legR6/leg r 7/leg r 8/leg r 9/leg r 10
+        weight: 1
+      - path: CrabSkeleton/Body/legR6/leg r 7/leg r 8/leg r 9/leg r 10/leg r 10_end
+        weight: 1
+      - path: CrabSkeleton/Body/legR11
+        weight: 1
+      - path: CrabSkeleton/Body/legR11/leg r 12
+        weight: 1
+      - path: CrabSkeleton/Body/legR11/leg r 12/leg r13
+        weight: 1
+      - path: CrabSkeleton/Body/legR11/leg r 12/leg r13/leg r 14
+        weight: 1
+      - path: CrabSkeleton/Body/legR11/leg r 12/leg r13/leg r 14/leg r15
+        weight: 1
+      - path: CrabSkeleton/Body/legR11/leg r 12/leg r13/leg r 14/leg r15/leg r15_end
+        weight: 1
+      - path: CrabSkeleton/Body/legR16
+        weight: 1
+      - path: CrabSkeleton/Body/legR16/leg r 17
+        weight: 1
+      - path: CrabSkeleton/Body/legR16/leg r 17/leg r18
+        weight: 1
+      - path: CrabSkeleton/Body/legR16/leg r 17/leg r18/leg r 19
+        weight: 1
+      - path: CrabSkeleton/Body/legR16/leg r 17/leg r18/leg r 19/leg r20
+        weight: 1
+      - path: CrabSkeleton/Body/legR16/leg r 17/leg r18/leg r 19/leg r20/leg r20_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hurt
+      takeName: CrabSkeleton|hurt
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Crab
+        weight: 1
+      - path: CrabLOD
+        weight: 1
+      - path: CrabSkeleton
+        weight: 1
+      - path: CrabSkeleton/Body
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1/ClawL2
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1/ClawL2/ClawL3
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1/ClawL2/ClawL3/ClawL3_end
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1/ClawL2/ClawL4
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1/ClawL2/ClawL4/ClawL4_end
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1/ClawR2
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1/ClawR2/ClawR3
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1/ClawR2/ClawR3/ClawR3_end
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1/ClawR2/ClawR4
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1/ClawR2/ClawR4/ClawR4_end
+        weight: 1
+      - path: CrabSkeleton/Body/legL1
+        weight: 1
+      - path: CrabSkeleton/Body/legL1/legL2
+        weight: 1
+      - path: CrabSkeleton/Body/legL1/legL2/legL3
+        weight: 1
+      - path: CrabSkeleton/Body/legL1/legL2/legL3/legL4
+        weight: 1
+      - path: CrabSkeleton/Body/legL1/legL2/legL3/legL4/legL5
+        weight: 1
+      - path: CrabSkeleton/Body/legL1/legL2/legL3/legL4/legL5/legL5_end
+        weight: 1
+      - path: CrabSkeleton/Body/legL6
+        weight: 1
+      - path: CrabSkeleton/Body/legL6/legL8
+        weight: 1
+      - path: CrabSkeleton/Body/legL6/legL8/legL9
+        weight: 1
+      - path: CrabSkeleton/Body/legL6/legL8/legL9/legL10
+        weight: 1
+      - path: CrabSkeleton/Body/legL6/legL8/legL9/legL10/legL11
+        weight: 1
+      - path: CrabSkeleton/Body/legL6/legL8/legL9/legL10/legL11/legL11_end
+        weight: 1
+      - path: CrabSkeleton/Body/legL12
+        weight: 1
+      - path: CrabSkeleton/Body/legL12/legL13
+        weight: 1
+      - path: CrabSkeleton/Body/legL12/legL13/legL14
+        weight: 1
+      - path: CrabSkeleton/Body/legL12/legL13/legL14/legL15
+        weight: 1
+      - path: CrabSkeleton/Body/legL12/legL13/legL14/legL15/legL17
+        weight: 1
+      - path: CrabSkeleton/Body/legL12/legL13/legL14/legL15/legL17/legL17_end
+        weight: 1
+      - path: CrabSkeleton/Body/legL18
+        weight: 1
+      - path: CrabSkeleton/Body/legL18/legL19
+        weight: 1
+      - path: CrabSkeleton/Body/legL18/legL19/legL20
+        weight: 1
+      - path: CrabSkeleton/Body/legL18/legL19/legL20/legL21
+        weight: 1
+      - path: CrabSkeleton/Body/legL18/legL19/legL20/legL21/legL22
+        weight: 1
+      - path: CrabSkeleton/Body/legL18/legL19/legL20/legL21/legL22/legL22_end
+        weight: 1
+      - path: CrabSkeleton/Body/legR1
+        weight: 1
+      - path: CrabSkeleton/Body/legR1/leg r 2
+        weight: 1
+      - path: CrabSkeleton/Body/legR1/leg r 2/leg r 3
+        weight: 1
+      - path: CrabSkeleton/Body/legR1/leg r 2/leg r 3/leg r 4
+        weight: 1
+      - path: CrabSkeleton/Body/legR1/leg r 2/leg r 3/leg r 4/leg r 5
+        weight: 1
+      - path: CrabSkeleton/Body/legR1/leg r 2/leg r 3/leg r 4/leg r 5/leg r 5_end
+        weight: 1
+      - path: CrabSkeleton/Body/legR6
+        weight: 1
+      - path: CrabSkeleton/Body/legR6/leg r 7
+        weight: 1
+      - path: CrabSkeleton/Body/legR6/leg r 7/leg r 8
+        weight: 1
+      - path: CrabSkeleton/Body/legR6/leg r 7/leg r 8/leg r 9
+        weight: 1
+      - path: CrabSkeleton/Body/legR6/leg r 7/leg r 8/leg r 9/leg r 10
+        weight: 1
+      - path: CrabSkeleton/Body/legR6/leg r 7/leg r 8/leg r 9/leg r 10/leg r 10_end
+        weight: 1
+      - path: CrabSkeleton/Body/legR11
+        weight: 1
+      - path: CrabSkeleton/Body/legR11/leg r 12
+        weight: 1
+      - path: CrabSkeleton/Body/legR11/leg r 12/leg r13
+        weight: 1
+      - path: CrabSkeleton/Body/legR11/leg r 12/leg r13/leg r 14
+        weight: 1
+      - path: CrabSkeleton/Body/legR11/leg r 12/leg r13/leg r 14/leg r15
+        weight: 1
+      - path: CrabSkeleton/Body/legR11/leg r 12/leg r13/leg r 14/leg r15/leg r15_end
+        weight: 1
+      - path: CrabSkeleton/Body/legR16
+        weight: 1
+      - path: CrabSkeleton/Body/legR16/leg r 17
+        weight: 1
+      - path: CrabSkeleton/Body/legR16/leg r 17/leg r18
+        weight: 1
+      - path: CrabSkeleton/Body/legR16/leg r 17/leg r18/leg r 19
+        weight: 1
+      - path: CrabSkeleton/Body/legR16/leg r 17/leg r18/leg r 19/leg r20
+        weight: 1
+      - path: CrabSkeleton/Body/legR16/leg r 17/leg r18/leg r 19/leg r20/leg r20_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: CrabSkeleton|idle
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Crab
+        weight: 1
+      - path: CrabLOD
+        weight: 1
+      - path: CrabSkeleton
+        weight: 1
+      - path: CrabSkeleton/Body
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1/ClawL2
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1/ClawL2/ClawL3
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1/ClawL2/ClawL3/ClawL3_end
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1/ClawL2/ClawL4
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1/ClawL2/ClawL4/ClawL4_end
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1/ClawR2
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1/ClawR2/ClawR3
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1/ClawR2/ClawR3/ClawR3_end
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1/ClawR2/ClawR4
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1/ClawR2/ClawR4/ClawR4_end
+        weight: 1
+      - path: CrabSkeleton/Body/legL1
+        weight: 1
+      - path: CrabSkeleton/Body/legL1/legL2
+        weight: 1
+      - path: CrabSkeleton/Body/legL1/legL2/legL3
+        weight: 1
+      - path: CrabSkeleton/Body/legL1/legL2/legL3/legL4
+        weight: 1
+      - path: CrabSkeleton/Body/legL1/legL2/legL3/legL4/legL5
+        weight: 1
+      - path: CrabSkeleton/Body/legL1/legL2/legL3/legL4/legL5/legL5_end
+        weight: 1
+      - path: CrabSkeleton/Body/legL6
+        weight: 1
+      - path: CrabSkeleton/Body/legL6/legL8
+        weight: 1
+      - path: CrabSkeleton/Body/legL6/legL8/legL9
+        weight: 1
+      - path: CrabSkeleton/Body/legL6/legL8/legL9/legL10
+        weight: 1
+      - path: CrabSkeleton/Body/legL6/legL8/legL9/legL10/legL11
+        weight: 1
+      - path: CrabSkeleton/Body/legL6/legL8/legL9/legL10/legL11/legL11_end
+        weight: 1
+      - path: CrabSkeleton/Body/legL12
+        weight: 1
+      - path: CrabSkeleton/Body/legL12/legL13
+        weight: 1
+      - path: CrabSkeleton/Body/legL12/legL13/legL14
+        weight: 1
+      - path: CrabSkeleton/Body/legL12/legL13/legL14/legL15
+        weight: 1
+      - path: CrabSkeleton/Body/legL12/legL13/legL14/legL15/legL17
+        weight: 1
+      - path: CrabSkeleton/Body/legL12/legL13/legL14/legL15/legL17/legL17_end
+        weight: 1
+      - path: CrabSkeleton/Body/legL18
+        weight: 1
+      - path: CrabSkeleton/Body/legL18/legL19
+        weight: 1
+      - path: CrabSkeleton/Body/legL18/legL19/legL20
+        weight: 1
+      - path: CrabSkeleton/Body/legL18/legL19/legL20/legL21
+        weight: 1
+      - path: CrabSkeleton/Body/legL18/legL19/legL20/legL21/legL22
+        weight: 1
+      - path: CrabSkeleton/Body/legL18/legL19/legL20/legL21/legL22/legL22_end
+        weight: 1
+      - path: CrabSkeleton/Body/legR1
+        weight: 1
+      - path: CrabSkeleton/Body/legR1/leg r 2
+        weight: 1
+      - path: CrabSkeleton/Body/legR1/leg r 2/leg r 3
+        weight: 1
+      - path: CrabSkeleton/Body/legR1/leg r 2/leg r 3/leg r 4
+        weight: 1
+      - path: CrabSkeleton/Body/legR1/leg r 2/leg r 3/leg r 4/leg r 5
+        weight: 1
+      - path: CrabSkeleton/Body/legR1/leg r 2/leg r 3/leg r 4/leg r 5/leg r 5_end
+        weight: 1
+      - path: CrabSkeleton/Body/legR6
+        weight: 1
+      - path: CrabSkeleton/Body/legR6/leg r 7
+        weight: 1
+      - path: CrabSkeleton/Body/legR6/leg r 7/leg r 8
+        weight: 1
+      - path: CrabSkeleton/Body/legR6/leg r 7/leg r 8/leg r 9
+        weight: 1
+      - path: CrabSkeleton/Body/legR6/leg r 7/leg r 8/leg r 9/leg r 10
+        weight: 1
+      - path: CrabSkeleton/Body/legR6/leg r 7/leg r 8/leg r 9/leg r 10/leg r 10_end
+        weight: 1
+      - path: CrabSkeleton/Body/legR11
+        weight: 1
+      - path: CrabSkeleton/Body/legR11/leg r 12
+        weight: 1
+      - path: CrabSkeleton/Body/legR11/leg r 12/leg r13
+        weight: 1
+      - path: CrabSkeleton/Body/legR11/leg r 12/leg r13/leg r 14
+        weight: 1
+      - path: CrabSkeleton/Body/legR11/leg r 12/leg r13/leg r 14/leg r15
+        weight: 1
+      - path: CrabSkeleton/Body/legR11/leg r 12/leg r13/leg r 14/leg r15/leg r15_end
+        weight: 1
+      - path: CrabSkeleton/Body/legR16
+        weight: 1
+      - path: CrabSkeleton/Body/legR16/leg r 17
+        weight: 1
+      - path: CrabSkeleton/Body/legR16/leg r 17/leg r18
+        weight: 1
+      - path: CrabSkeleton/Body/legR16/leg r 17/leg r18/leg r 19
+        weight: 1
+      - path: CrabSkeleton/Body/legR16/leg r 17/leg r18/leg r 19/leg r20
+        weight: 1
+      - path: CrabSkeleton/Body/legR16/leg r 17/leg r18/leg r 19/leg r20/leg r20_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk left
+      takeName: CrabSkeleton|walk let
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Crab
+        weight: 1
+      - path: CrabLOD
+        weight: 1
+      - path: CrabSkeleton
+        weight: 1
+      - path: CrabSkeleton/Body
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1/ClawL2
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1/ClawL2/ClawL3
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1/ClawL2/ClawL3/ClawL3_end
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1/ClawL2/ClawL4
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1/ClawL2/ClawL4/ClawL4_end
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1/ClawR2
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1/ClawR2/ClawR3
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1/ClawR2/ClawR3/ClawR3_end
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1/ClawR2/ClawR4
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1/ClawR2/ClawR4/ClawR4_end
+        weight: 1
+      - path: CrabSkeleton/Body/legL1
+        weight: 1
+      - path: CrabSkeleton/Body/legL1/legL2
+        weight: 1
+      - path: CrabSkeleton/Body/legL1/legL2/legL3
+        weight: 1
+      - path: CrabSkeleton/Body/legL1/legL2/legL3/legL4
+        weight: 1
+      - path: CrabSkeleton/Body/legL1/legL2/legL3/legL4/legL5
+        weight: 1
+      - path: CrabSkeleton/Body/legL1/legL2/legL3/legL4/legL5/legL5_end
+        weight: 1
+      - path: CrabSkeleton/Body/legL6
+        weight: 1
+      - path: CrabSkeleton/Body/legL6/legL8
+        weight: 1
+      - path: CrabSkeleton/Body/legL6/legL8/legL9
+        weight: 1
+      - path: CrabSkeleton/Body/legL6/legL8/legL9/legL10
+        weight: 1
+      - path: CrabSkeleton/Body/legL6/legL8/legL9/legL10/legL11
+        weight: 1
+      - path: CrabSkeleton/Body/legL6/legL8/legL9/legL10/legL11/legL11_end
+        weight: 1
+      - path: CrabSkeleton/Body/legL12
+        weight: 1
+      - path: CrabSkeleton/Body/legL12/legL13
+        weight: 1
+      - path: CrabSkeleton/Body/legL12/legL13/legL14
+        weight: 1
+      - path: CrabSkeleton/Body/legL12/legL13/legL14/legL15
+        weight: 1
+      - path: CrabSkeleton/Body/legL12/legL13/legL14/legL15/legL17
+        weight: 1
+      - path: CrabSkeleton/Body/legL12/legL13/legL14/legL15/legL17/legL17_end
+        weight: 1
+      - path: CrabSkeleton/Body/legL18
+        weight: 1
+      - path: CrabSkeleton/Body/legL18/legL19
+        weight: 1
+      - path: CrabSkeleton/Body/legL18/legL19/legL20
+        weight: 1
+      - path: CrabSkeleton/Body/legL18/legL19/legL20/legL21
+        weight: 1
+      - path: CrabSkeleton/Body/legL18/legL19/legL20/legL21/legL22
+        weight: 1
+      - path: CrabSkeleton/Body/legL18/legL19/legL20/legL21/legL22/legL22_end
+        weight: 1
+      - path: CrabSkeleton/Body/legR1
+        weight: 1
+      - path: CrabSkeleton/Body/legR1/leg r 2
+        weight: 1
+      - path: CrabSkeleton/Body/legR1/leg r 2/leg r 3
+        weight: 1
+      - path: CrabSkeleton/Body/legR1/leg r 2/leg r 3/leg r 4
+        weight: 1
+      - path: CrabSkeleton/Body/legR1/leg r 2/leg r 3/leg r 4/leg r 5
+        weight: 1
+      - path: CrabSkeleton/Body/legR1/leg r 2/leg r 3/leg r 4/leg r 5/leg r 5_end
+        weight: 1
+      - path: CrabSkeleton/Body/legR6
+        weight: 1
+      - path: CrabSkeleton/Body/legR6/leg r 7
+        weight: 1
+      - path: CrabSkeleton/Body/legR6/leg r 7/leg r 8
+        weight: 1
+      - path: CrabSkeleton/Body/legR6/leg r 7/leg r 8/leg r 9
+        weight: 1
+      - path: CrabSkeleton/Body/legR6/leg r 7/leg r 8/leg r 9/leg r 10
+        weight: 1
+      - path: CrabSkeleton/Body/legR6/leg r 7/leg r 8/leg r 9/leg r 10/leg r 10_end
+        weight: 1
+      - path: CrabSkeleton/Body/legR11
+        weight: 1
+      - path: CrabSkeleton/Body/legR11/leg r 12
+        weight: 1
+      - path: CrabSkeleton/Body/legR11/leg r 12/leg r13
+        weight: 1
+      - path: CrabSkeleton/Body/legR11/leg r 12/leg r13/leg r 14
+        weight: 1
+      - path: CrabSkeleton/Body/legR11/leg r 12/leg r13/leg r 14/leg r15
+        weight: 1
+      - path: CrabSkeleton/Body/legR11/leg r 12/leg r13/leg r 14/leg r15/leg r15_end
+        weight: 1
+      - path: CrabSkeleton/Body/legR16
+        weight: 1
+      - path: CrabSkeleton/Body/legR16/leg r 17
+        weight: 1
+      - path: CrabSkeleton/Body/legR16/leg r 17/leg r18
+        weight: 1
+      - path: CrabSkeleton/Body/legR16/leg r 17/leg r18/leg r 19
+        weight: 1
+      - path: CrabSkeleton/Body/legR16/leg r 17/leg r18/leg r 19/leg r20
+        weight: 1
+      - path: CrabSkeleton/Body/legR16/leg r 17/leg r18/leg r 19/leg r20/leg r20_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk right
+      takeName: CrabSkeleton|walk right
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Crab
+        weight: 1
+      - path: CrabLOD
+        weight: 1
+      - path: CrabSkeleton
+        weight: 1
+      - path: CrabSkeleton/Body
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1/ClawL2
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1/ClawL2/ClawL3
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1/ClawL2/ClawL3/ClawL3_end
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1/ClawL2/ClawL4
+        weight: 1
+      - path: CrabSkeleton/Body/ClawL1/ClawL2/ClawL4/ClawL4_end
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1/ClawR2
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1/ClawR2/ClawR3
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1/ClawR2/ClawR3/ClawR3_end
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1/ClawR2/ClawR4
+        weight: 1
+      - path: CrabSkeleton/Body/ClawR1/ClawR2/ClawR4/ClawR4_end
+        weight: 1
+      - path: CrabSkeleton/Body/legL1
+        weight: 1
+      - path: CrabSkeleton/Body/legL1/legL2
+        weight: 1
+      - path: CrabSkeleton/Body/legL1/legL2/legL3
+        weight: 1
+      - path: CrabSkeleton/Body/legL1/legL2/legL3/legL4
+        weight: 1
+      - path: CrabSkeleton/Body/legL1/legL2/legL3/legL4/legL5
+        weight: 1
+      - path: CrabSkeleton/Body/legL1/legL2/legL3/legL4/legL5/legL5_end
+        weight: 1
+      - path: CrabSkeleton/Body/legL6
+        weight: 1
+      - path: CrabSkeleton/Body/legL6/legL8
+        weight: 1
+      - path: CrabSkeleton/Body/legL6/legL8/legL9
+        weight: 1
+      - path: CrabSkeleton/Body/legL6/legL8/legL9/legL10
+        weight: 1
+      - path: CrabSkeleton/Body/legL6/legL8/legL9/legL10/legL11
+        weight: 1
+      - path: CrabSkeleton/Body/legL6/legL8/legL9/legL10/legL11/legL11_end
+        weight: 1
+      - path: CrabSkeleton/Body/legL12
+        weight: 1
+      - path: CrabSkeleton/Body/legL12/legL13
+        weight: 1
+      - path: CrabSkeleton/Body/legL12/legL13/legL14
+        weight: 1
+      - path: CrabSkeleton/Body/legL12/legL13/legL14/legL15
+        weight: 1
+      - path: CrabSkeleton/Body/legL12/legL13/legL14/legL15/legL17
+        weight: 1
+      - path: CrabSkeleton/Body/legL12/legL13/legL14/legL15/legL17/legL17_end
+        weight: 1
+      - path: CrabSkeleton/Body/legL18
+        weight: 1
+      - path: CrabSkeleton/Body/legL18/legL19
+        weight: 1
+      - path: CrabSkeleton/Body/legL18/legL19/legL20
+        weight: 1
+      - path: CrabSkeleton/Body/legL18/legL19/legL20/legL21
+        weight: 1
+      - path: CrabSkeleton/Body/legL18/legL19/legL20/legL21/legL22
+        weight: 1
+      - path: CrabSkeleton/Body/legL18/legL19/legL20/legL21/legL22/legL22_end
+        weight: 1
+      - path: CrabSkeleton/Body/legR1
+        weight: 1
+      - path: CrabSkeleton/Body/legR1/leg r 2
+        weight: 1
+      - path: CrabSkeleton/Body/legR1/leg r 2/leg r 3
+        weight: 1
+      - path: CrabSkeleton/Body/legR1/leg r 2/leg r 3/leg r 4
+        weight: 1
+      - path: CrabSkeleton/Body/legR1/leg r 2/leg r 3/leg r 4/leg r 5
+        weight: 1
+      - path: CrabSkeleton/Body/legR1/leg r 2/leg r 3/leg r 4/leg r 5/leg r 5_end
+        weight: 1
+      - path: CrabSkeleton/Body/legR6
+        weight: 1
+      - path: CrabSkeleton/Body/legR6/leg r 7
+        weight: 1
+      - path: CrabSkeleton/Body/legR6/leg r 7/leg r 8
+        weight: 1
+      - path: CrabSkeleton/Body/legR6/leg r 7/leg r 8/leg r 9
+        weight: 1
+      - path: CrabSkeleton/Body/legR6/leg r 7/leg r 8/leg r 9/leg r 10
+        weight: 1
+      - path: CrabSkeleton/Body/legR6/leg r 7/leg r 8/leg r 9/leg r 10/leg r 10_end
+        weight: 1
+      - path: CrabSkeleton/Body/legR11
+        weight: 1
+      - path: CrabSkeleton/Body/legR11/leg r 12
+        weight: 1
+      - path: CrabSkeleton/Body/legR11/leg r 12/leg r13
+        weight: 1
+      - path: CrabSkeleton/Body/legR11/leg r 12/leg r13/leg r 14
+        weight: 1
+      - path: CrabSkeleton/Body/legR11/leg r 12/leg r13/leg r 14/leg r15
+        weight: 1
+      - path: CrabSkeleton/Body/legR11/leg r 12/leg r13/leg r 14/leg r15/leg r15_end
+        weight: 1
+      - path: CrabSkeleton/Body/legR16
+        weight: 1
+      - path: CrabSkeleton/Body/legR16/leg r 17
+        weight: 1
+      - path: CrabSkeleton/Body/legR16/leg r 17/leg r18
+        weight: 1
+      - path: CrabSkeleton/Body/legR16/leg r 17/leg r18/leg r 19
+        weight: 1
+      - path: CrabSkeleton/Body/legR16/leg r 17/leg r18/leg r 19/leg r20
+        weight: 1
+      - path: CrabSkeleton/Body/legR16/leg r 17/leg r18/leg r 19/leg r20/leg r20_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
