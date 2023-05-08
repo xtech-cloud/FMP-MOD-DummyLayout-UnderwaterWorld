@@ -1,0 +1,67 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{86CBF9DD-E43A-4FE1-A926-B50B57DB00FF}") = "fmp-xtc-dummylayoutunderwaterworld-lib-mvcs", "fmp-xtc-dummylayoutunderwaterworld-lib-mvcs\fmp-xtc-dummylayoutunderwaterworld-lib-mvcs.csproj", "{400F7984-5D3A-4A6F-A781-DA0F4EFABBEB}"
+EndProject
+Project("{86CBF9DD-E43A-4FE1-A926-B50B57DB00FF}") = "fmp-xtc-dummylayoutunderwaterworld-lib-mvcs_Test", "fmp-xtc-dummylayoutunderwaterworld-lib-mvcs_Test\fmp-xtc-dummylayoutunderwaterworld-lib-mvcs_Test.csproj", "{B2B6321D-60CA-4CD8-89BC-1467DC841463}"
+EndProject
+Project("{86CBF9DD-E43A-4FE1-A926-B50B57DB00FF}") = "fmp-xtc-dummylayoutunderwaterworld-lib-proto", "fmp-xtc-dummylayoutunderwaterworld-lib-proto\fmp-xtc-dummylayoutunderwaterworld-lib-proto.csproj", "{3EEBD372-0C37-4846-A7F2-28990616046A}"
+EndProject
+Project("{86CBF9DD-E43A-4FE1-A926-B50B57DB00FF}") = "fmp-xtc-dummylayoutunderwaterworld-lib-bridge", "fmp-xtc-dummylayoutunderwaterworld-lib-bridge\fmp-xtc-dummylayoutunderwaterworld-lib-bridge.csproj", "{A741F5B0-9B6F-4433-9A26-0EDCDB358881}"
+EndProject
+Project("{86CBF9DD-E43A-4FE1-A926-B50B57DB00FF}") = "fmp-xtc-dummylayoutunderwaterworld-lib-razor", "fmp-xtc-dummylayoutunderwaterworld-lib-razor\fmp-xtc-dummylayoutunderwaterworld-lib-razor.csproj", "{C60292B7-396B-4FBD-BC73-7BE8BC6DE805}"
+EndProject
+Project("{86CBF9DD-E43A-4FE1-A926-B50B57DB00FF}") = "fmp-xtc-dummylayoutunderwaterworld-service-grpc", "fmp-xtc-dummylayoutunderwaterworld-service-grpc\fmp-xtc-dummylayoutunderwaterworld-service-grpc.csproj", "{0F7EB24E-C211-4ED0-8B14-4D82369D8356}"
+EndProject
+Project("{86CBF9DD-E43A-4FE1-A926-B50B57DB00FF}") = "fmp-xtc-dummylayoutunderwaterworld-service-grpc_Test", "fmp-xtc-dummylayoutunderwaterworld-service-grpc_Test\fmp-xtc-dummylayoutunderwaterworld-service-grpc_Test.csproj", "{0E5BD071-76AE-44D0-BACE-5F265E63B806}"
+EndProject
+Project("{86CBF9DD-E43A-4FE1-A926-B50B57DB00FF}") = "fmp-xtc-dummylayoutunderwaterworld-web-blazor", "fmp-xtc-dummylayoutunderwaterworld-web-blazor\fmp-xtc-dummylayoutunderwaterworld-web-blazor.csproj", "{674F407F-C03E-41BC-93F0-F6042271792E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+                {400F7984-5D3A-4A6F-A781-DA0F4EFABBEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{400F7984-5D3A-4A6F-A781-DA0F4EFABBEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{400F7984-5D3A-4A6F-A781-DA0F4EFABBEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{400F7984-5D3A-4A6F-A781-DA0F4EFABBEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2B6321D-60CA-4CD8-89BC-1467DC841463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2B6321D-60CA-4CD8-89BC-1467DC841463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2B6321D-60CA-4CD8-89BC-1467DC841463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2B6321D-60CA-4CD8-89BC-1467DC841463}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EEBD372-0C37-4846-A7F2-28990616046A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EEBD372-0C37-4846-A7F2-28990616046A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EEBD372-0C37-4846-A7F2-28990616046A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EEBD372-0C37-4846-A7F2-28990616046A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F7EB24E-C211-4ED0-8B14-4D82369D8356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F7EB24E-C211-4ED0-8B14-4D82369D8356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F7EB24E-C211-4ED0-8B14-4D82369D8356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F7EB24E-C211-4ED0-8B14-4D82369D8356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A741F5B0-9B6F-4433-9A26-0EDCDB358881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A741F5B0-9B6F-4433-9A26-0EDCDB358881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A741F5B0-9B6F-4433-9A26-0EDCDB358881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A741F5B0-9B6F-4433-9A26-0EDCDB358881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{674F407F-C03E-41BC-93F0-F6042271792E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{674F407F-C03E-41BC-93F0-F6042271792E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{674F407F-C03E-41BC-93F0-F6042271792E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{674F407F-C03E-41BC-93F0-F6042271792E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C60292B7-396B-4FBD-BC73-7BE8BC6DE805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C60292B7-396B-4FBD-BC73-7BE8BC6DE805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C60292B7-396B-4FBD-BC73-7BE8BC6DE805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C60292B7-396B-4FBD-BC73-7BE8BC6DE805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E5BD071-76AE-44D0-BACE-5F265E63B806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E5BD071-76AE-44D0-BACE-5F265E63B806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E5BD071-76AE-44D0-BACE-5F265E63B806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E5BD071-76AE-44D0-BACE-5F265E63B806}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86CBF9DD-E43A-4FE1-A926-B50B57DB00FF}
+	EndGlobalSection
+EndGlobal

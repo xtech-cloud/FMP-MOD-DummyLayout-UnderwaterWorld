@@ -1,0 +1,19 @@
+
+/_dist_/
+/_build_/
+/DummyLayoutUnderwaterWorld/Assets/TextMesh Pro/
+/DummyLayoutUnderwaterWorld/Assets/TextMesh Pro.meta
+/DummyLayoutUnderwaterWorld/Assets/Plugins/
+/DummyLayoutUnderwaterWorld/Assets/Plugins.meta
+/DummyLayoutUnderwaterWorld/Assets/3rd/
+/DummyLayoutUnderwaterWorld/Assets/3rd.meta
+/DummyLayoutUnderwaterWorld/Library/
+/DummyLayoutUnderwaterWorld/obj/
+/DummyLayoutUnderwaterWorld/Logs/
+/DummyLayoutUnderwaterWorld/Temp/
+/DummyLayoutUnderwaterWorld/UserSettings/
+/DummyLayoutUnderwaterWorld/*.sln
+/DummyLayoutUnderwaterWorld/*.csproj
+/DummyLayoutUnderwaterWorld/.vsconfig
+/DummyLayoutUnderwaterWorld/.vs/
+/.UNITY_HOME.env
