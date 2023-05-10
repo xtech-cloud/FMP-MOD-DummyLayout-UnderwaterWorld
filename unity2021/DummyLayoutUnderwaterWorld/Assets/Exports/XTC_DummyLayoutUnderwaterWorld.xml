@@ -41,6 +41,7 @@
 				<Layer image="bg-back-1.png"/>
 			</BackLayerS>
 			<FrontLayerS>
+				<Layer image="bg-front-1.png"/>
 			</FrontLayerS>
 			<Card height="96" offset="100" column="6">
 				<CloseButton image="card-close.png">
