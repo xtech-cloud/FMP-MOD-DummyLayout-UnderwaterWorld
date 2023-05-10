@@ -171,6 +171,7 @@ MonoBehaviour:
   mainWorld: {fileID: 1833906195}
   exportRoot: {fileID: 790474682}
   mainFont: {fileID: 0}
+  slotOnInlay: {fileID: 539637068}
 --- !u!1 &539637067
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,6 +9,8 @@ using UnityEngine;
 /// </remarks>
 public class Root : RootBase
 {
+    public Transform slotOnInlay;
+
     private void Awake()
     {
         doAwake();
@@ -54,6 +56,41 @@ public class Root : RootBase
         if (GUI.Button(new Rect(0, 150, 60, 30), "Delete"))
         {
             entry_.__DebugDelete("test");
+        }
+
+        if (GUI.Button(new Rect(0, 180, 180, 30), "Layout OnInlay"))
+        {
+            entry_.__DebugOnInlay("dummy", "default", 1080, 1080, slotOnInlay);
+        }
+
+        if (GUI.Button(new Rect(0, 210, 180, 30), "InTransition OnEnter"))
+        {
+            entry_.__DebugInTransitionOnEnter("dummy", "default", 30);
+        }
+
+        if (GUI.Button(new Rect(0, 240, 180, 30), "InTransition OnExit"))
+        {
+            entry_.__DebugInTransitionOnExit("dummy", "default");
+        }
+
+        if (GUI.Button(new Rect(0, 270, 180, 30), "Layout OnEnter"))
+        {
+            entry_.__DebugLayoutOnEnter("dummy", "default", 30);
+        }
+
+        if (GUI.Button(new Rect(0, 300, 180, 30), "Layout OnExit"))
+        {
+            entry_.__DebugLayoutOnEnter("dummy", "default", 30);
+        }
+
+        if (GUI.Button(new Rect(0, 330, 180, 30), "OutTransition OnEnter"))
+        {
+            entry_.__DebugOutTransitionOnEnter("dummy", "default", 30);
+        }
+
+        if (GUI.Button(new Rect(0, 370, 180, 30), "OutTransition OnExit"))
+        {
+            entry_.__DebugOutTransitionOnExit("dummy", "default");
         }
     }
 }

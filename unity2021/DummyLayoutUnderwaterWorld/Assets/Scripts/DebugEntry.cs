@@ -10,7 +10,7 @@ namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
     /// <remarks>
     /// 不参与模块编译，仅用于在编辑器中开发调试
     /// </remarks>
-    public class DebugEntry : MyEntry 
+    public class DebugEntry : MyEntry
     {
         /// <summary>
         /// 调试预加载
@@ -66,13 +66,13 @@ namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
             data["delay"] = _delay;
             modelDummy_.Publish(MySubjectBase.Open, data);
         }
-        
+
         /// <summary>
         /// 调试显示
         /// </summary>
         /// <param name="_uid">实例的uid</param>
         /// <param name="_delay">延迟时间，单位秒</param>
-        public void __DebugShow(string _uid,  float _delay)
+        public void __DebugShow(string _uid, float _delay)
         {
             var data = new Dictionary<string, object>();
             data["uid"] = _uid;
@@ -85,7 +85,7 @@ namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
         /// </summary>
         /// <param name="_uid">实例的uid</param>
         /// <param name="_delay">延迟时间，单位秒</param>
-        public void __DebugHide(string _uid,  float _delay)
+        public void __DebugHide(string _uid, float _delay)
         {
             var data = new Dictionary<string, object>();
             data["uid"] = _uid;
@@ -116,5 +116,76 @@ namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
             data["uid"] = _uid;
             modelDummy_.Publish(MySubjectBase.Delete, data);
         }
+
+        /// <summary>
+        /// 调试嵌入
+        /// </summary>
+        /// <param name="_layer"></param>
+        /// <param name="_pattern"></param>
+        /// <param name="_virtualResolutionWidth"></param>
+        /// <param name="_virtualResolutionHeight"></param>
+        /// <param name="_uiSlot"></param>
+        public void __DebugOnInlay(string _layer, string _pattern, int _virtualResolutionWidth, int _virtualResolutionHeight, Transform _uiSlot)
+        {
+            var data = new Dictionary<string, object>();
+            data["layer"] = _layer;
+            data["pattern"] = _pattern;
+            data["virtual_resolution_width"] = _virtualResolutionWidth;
+            data["virtual_resolution_height"] = _virtualResolutionHeight;
+            data["uiSlot"] = _uiSlot;
+            modelDummy_.Publish("/XTC/VisionLayout/DummyLayout/OnInlay", data);
+        }
+
+        public void __DebugLayoutOnEnter(string _layer, string _pattern, float _duration)
+        {
+            var data = new Dictionary<string, object>();
+            data["layer"] = _layer;
+            data["pattern"] = _pattern;
+            data["duration"] = _duration;
+            modelDummy_.Publish("/XTC/VisionLayout/DummyLayout/OnEnter", data);
+        }
+
+        public void __DebugLayoutOnExit(string _layer, string _pattern, float _duration)
+        {
+            var data = new Dictionary<string, object>();
+            data["layer"] = _layer;
+            data["pattern"] = _pattern;
+            modelDummy_.Publish("/XTC/VisionLayout/DummyLayout/OnExit", data);
+        }
+
+        public void __DebugInTransitionOnEnter(string _layer, string _pattern, float _duration)
+        {
+            var data = new Dictionary<string, object>();
+            data["layer"] = _layer;
+            data["pattern"] = _pattern;
+            data["duration"] = _duration;
+            modelDummy_.Publish("/XTC/VisionLayout/DummyInTransition/OnEnter", data);
+        }
+
+        public void __DebugInTransitionOnExit(string _layer, string _pattern)
+        {
+            var data = new Dictionary<string, object>();
+            data["layer"] = _layer;
+            data["pattern"] = _pattern;
+            modelDummy_.Publish("/XTC/VisionLayout/DummyInTransition/OnExit", data);
+        }
+
+        public void __DebugOutTransitionOnEnter(string _layer, string _pattern, float _duration)
+        {
+            var data = new Dictionary<string, object>();
+            data["layer"] = _layer;
+            data["pattern"] = _pattern;
+            data["duration"] = _duration;
+            modelDummy_.Publish("/XTC/VisionLayout/DummyOutTransition/OnEnter", data);
+        }
+
+        public void __DebugOutTransitionOnExit(string _layer, string _pattern)
+        {
+            var data = new Dictionary<string, object>();
+            data["layer"] = _layer;
+            data["pattern"] = _pattern;
+            modelDummy_.Publish("/XTC/VisionLayout/DummyOutTransition/OnExit", data);
+        }
+
     }
 }
