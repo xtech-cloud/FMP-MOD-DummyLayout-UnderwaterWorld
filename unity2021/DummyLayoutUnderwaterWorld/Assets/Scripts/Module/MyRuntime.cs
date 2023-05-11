@@ -23,10 +23,14 @@ namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
         {
             if (_pattern != MyEntryBase.ModuleName)
                 return;
-            CreateInstanceAsync(_layer, _pattern, "", "", "", "", (_instance) =>
+
+            MyInstance instance;
+            if (!instances.TryGetValue(_layer, out instance))
             {
-                _instance.rootUI.transform.SetParent(_uiSlot);
-            });
+                logger_.Error("instance:${0}$ not found", _layer);
+                return;
+            }
+            instance.rootUI.transform.SetParent(_uiSlot);
         }
 
         public void OnLayoutEnter(string _layer, string _pattern, float _duration)
