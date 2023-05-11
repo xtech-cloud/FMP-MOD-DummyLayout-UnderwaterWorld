@@ -43,6 +43,9 @@ namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
                 logger_.Error("instance:${0}$ not found", _layer);
                 return;
             }
+
+            instance.rootUI.gameObject.SetActive(true);
+            instance.rootWorld.gameObject.SetActive(true);
         }
 
         public void OnLayoutExit(string _layer, string _pattern)
@@ -56,6 +59,8 @@ namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
                 return;
             }
 
+            instance.rootUI.gameObject.SetActive(true);
+            instance.rootWorld.gameObject.SetActive(true);
         }
 
         public void OnInTransitionEnter(string _layer, string _pattern, float _duration)
@@ -69,8 +74,6 @@ namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
                 return;
             }
 
-            instance.rootUI.gameObject.SetActive(true);
-            instance.rootWorld.gameObject.SetActive(true);
         }
 
         public void OnInTransitionExit(string _layer, string _pattern)
