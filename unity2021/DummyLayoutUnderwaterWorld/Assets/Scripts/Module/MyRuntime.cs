@@ -21,6 +21,8 @@ namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
 
         public void Inlay(string _layer, string _pattern, int _virtualResolutionWidth, int _virtualResolutionHeight, Transform _uiSlot)
         {
+            if (_pattern != MyEntryBase.ModuleName)
+                return;
             CreateInstanceAsync(_layer, _pattern, "", "", "", "", (_instance) =>
             {
                 _instance.rootUI.transform.SetParent(_uiSlot);
@@ -29,7 +31,8 @@ namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
 
         public void OnLayoutEnter(string _layer, string _pattern, float _duration)
         {
-
+            if (_pattern != MyEntryBase.ModuleName)
+                return;
             MyInstance instance;
             if (!instances.TryGetValue(_layer, out instance))
             {
@@ -40,6 +43,8 @@ namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
 
         public void OnLayoutExit(string _layer, string _pattern)
         {
+            if (_pattern != MyEntryBase.ModuleName)
+                return;
             MyInstance instance;
             if (!instances.TryGetValue(_layer, out instance))
             {
@@ -51,6 +56,8 @@ namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
 
         public void OnInTransitionEnter(string _layer, string _pattern, float _duration)
         {
+            if (_pattern != MyEntryBase.ModuleName)
+                return;
             MyInstance instance;
             if (!instances.TryGetValue(_layer, out instance))
             {
@@ -64,6 +71,8 @@ namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
 
         public void OnInTransitionExit(string _layer, string _pattern)
         {
+            if (_pattern != MyEntryBase.ModuleName)
+                return;
             MyInstance instance;
             if (!instances.TryGetValue(_layer, out instance))
             {
@@ -74,6 +83,8 @@ namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
 
         public void OnOutTransitionEnter(string _layer, string _pattern, float _duration)
         {
+            if (_pattern != MyEntryBase.ModuleName)
+                return;
             MyInstance instance;
             if (!instances.TryGetValue(_layer, out instance))
             {
@@ -85,6 +96,8 @@ namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
 
         public void OnOutTransitionExit(string _layer, string _pattern)
         {
+            if (_pattern != MyEntryBase.ModuleName)
+                return;
             MyInstance instance;
             if (!instances.TryGetValue(_layer, out instance))
             {
