@@ -149,6 +149,7 @@ namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
                 for (int i = 0; i < style_.card.column; ++i)
                 {
                     var clone = GameObject.Instantiate(uiRefenrence_.cardTemplate.gameObject, uiRefenrence_.cardTemplate.parent);
+                    clone.name = i.ToString();
                     uiRefenrence_.cardCloneS[i] = clone.GetComponent<RectTransform>();
                     var x = columnWidth_ * i - uiRefenrence_.renderer.rect.width / 2 + columnWidth_ / 2;
                     clone.GetComponent<RectTransform>().anchoredPosition = new Vector2(x, style_.card.offset);
@@ -160,7 +161,7 @@ namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
 
                         clone.SetActive(false);
                         Dictionary<string, object> variableS = new Dictionary<string, object>();
-                        variableS["{{card_uid}}"] = string.Format("{0}_{1}",uid, i);
+                        variableS["{{card_uid}}"] = string.Format("{0}_{1}",uid, clone.name);
                         variableS["{{content_uri}}"] = uri;
                         variableS["{{card_position_x}}"] = clone.GetComponent<RectTransform>().anchoredPosition.x;
                         variableS["{{card_position_y}}"] = clone.GetComponent<RectTransform>().anchoredPosition.y;
