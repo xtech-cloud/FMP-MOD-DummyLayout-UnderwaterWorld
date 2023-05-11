@@ -48,11 +48,14 @@
 					<Anchor width="32" height="32" horizontal="right" vertical="top" marginH="4" marginV="2"/>
 				</CloseButton>
 				<SubjectS>
-					<Subject message="/XTC/IntegerationBoard/Inlay">
+					<Subject message="/XTC/IntegrationBoard/DirectOpen">
 						<Parameters>
-							<Parameter key="uid" value="default" type="string"/>
+							<Parameter key="uid" value="{{card_uid}}" type="_"/>
+							<Parameter key="style" value="circular" type="string"/>
 							<Parameter key="source" value="assloud://" type="string"/>
-							<Parameter key="uri" value="{{uri}}" type="string"/>
+							<Parameter key="uri" value="{{content_uri}}" type="_"/>
+							<Parameter key="position_x" value="{{card_position_x}}" type="_"/>
+							<Parameter key="position_y" value="{{card_position_y}}" type="_"/>
 							<Parameter key="delay" value="0" type="float"/>
 						</Parameters>
 					</Subject>

@@ -80,6 +80,11 @@ namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
 
         private void handleCreated()
         {
+            if (null == style_)
+            {
+                logger_.Error("style is not found");
+                return;
+            }
             uiRefenrence_.renderer = rootUI.transform.Find("renderer").GetComponent<RectTransform>();
             uiRefenrence_.renderer.gameObject.SetActive(true);
             uiRefenrence_.cardTemplate = rootUI.transform.Find("card").GetComponent<RectTransform>();
@@ -139,6 +144,7 @@ namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
                 worldRefenrence_.camera.transform.localPosition = new Vector3(worldRefenrence_.camera.transform.localPosition.x, worldRefenrence_.camera.transform.localPosition.y, style_.renderer.cameraOptions.distance);
             }
 
+            // 创建名牌
             {
                 for (int i = 0; i < style_.card.column; ++i)
                 {
@@ -154,7 +160,10 @@ namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
 
                         clone.SetActive(false);
                         Dictionary<string, object> variableS = new Dictionary<string, object>();
-                        variableS["{{uri}}"] = uri;
+                        variableS["{{card_uid}}"] = string.Format("{0}_{1}",uid, i);
+                        variableS["{{content_uri}}"] = uri;
+                        variableS["{{card_position_x}}"] = clone.GetComponent<RectTransform>().anchoredPosition.x;
+                        variableS["{{card_position_y}}"] = clone.GetComponent<RectTransform>().anchoredPosition.y;
                         publishSubjects(style_.card.subjectS, variableS);
                     });
                     var btnClose = clone.transform.Find("btnClose").GetComponent<Button>();

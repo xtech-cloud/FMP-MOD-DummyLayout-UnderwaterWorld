@@ -59,8 +59,8 @@ namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
                 return;
             }
 
-            instance.rootUI.gameObject.SetActive(true);
-            instance.rootWorld.gameObject.SetActive(true);
+            instance.rootUI.gameObject.SetActive(false);
+            instance.rootWorld.gameObject.SetActive(false);
         }
 
         public void OnInTransitionEnter(string _layer, string _pattern, float _duration)
