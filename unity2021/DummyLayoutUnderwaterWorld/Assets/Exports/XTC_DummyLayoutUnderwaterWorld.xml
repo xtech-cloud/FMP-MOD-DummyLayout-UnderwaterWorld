@@ -21,7 +21,7 @@
 	  Renderer.WorldOptions.offsetY: 世界的Y轴偏移，用以避免多个世界的重叠
 	  Renderer.UiOptions.mode: Ui的渲染模式，可选值为[Overlay]
 	  Renderer.CameraOptions.fieldOfView: 摄像机视角值，16:9时建议值为60，32:9时建议值为30
-	  Renderer.CameraOptions.distance: 摄像机距离，16:9时建议值为30，32:9时建议值为0
+	  Renderer.CameraOptions.distance: 摄像机距离，16:9时建议值为30，32:9时建议值为32
 	  Card.column: 名牌的列数，建议值为拼接屏幕的列数
 	  Card.height: 名牌高度
 	  Card.offset: 名牌底部离窗口底部的位置
@@ -35,7 +35,7 @@
 			<Renderer >
 				<WorldOptions offsetY="99999"/>
 				<UiOptions mode="Overlay"/>
-				<CameraOptions fieldOfView="30" distance="0"/>
+				<CameraOptions fieldOfView="30" distance="32"/>
 			</Renderer>
 			<BackLayerS>
 				<Layer image="bg-back-1.png"/>
