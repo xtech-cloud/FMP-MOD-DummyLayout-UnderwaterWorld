@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <MyConfig version="1.0">
-	<!-- UI 
+  <!-- UI 
       visible: 预加载完成后是否显示
       slot: ui根节点在主Canvas中的挂载路径
     -->
-	<UI visible="true" slot="[root]"/>
-	<!-- World
+  <UI visible="true" slot="[root]"/>
+  <!-- World
       visible: 预加载完成后是否显示
       slot: world根节点的挂载路径
     -->
-	<World visible="true" slot="[root]"/>
-	<!-- 远程过程调用
+  <World visible="true" slot="[root]"/>
+  <!-- 远程过程调用
       address: 地址
     -->
-	<GRPC address="https://localhost:19000"/>
-	<!-- 样式列表
+  <GRPC address="https://localhost:19000"/>
+  <!-- 样式列表
       name: 名称
 	  BackLayerS: 后置图层，位于所有模型的后面，按顺序从后往前显示
 	  FrontLayerS: 前置图层，位于所有模型的前面，按顺序从后往前显示
@@ -26,51 +26,85 @@
 	  Card.height: 名牌高度
 	  Card.offset: 名牌底部离窗口底部的位置
 	  Card.SubjectS: 名牌点击后发布的消息订阅
+		EventHandler.OnInTransitionEnter: 当虚拟布局入过渡进入时发布的订阅主题
+		EventHandler.OnInTransitionExit: 当虚拟布局入过渡退出时发布的订阅主题
+		EventHandler.OnLayoutEnter: 当虚拟布局布局进入时发布的订阅主题
+		EventHandler.OnLayoutExit: 当虚拟布局入布局退出时发布的订阅主题
+		EventHandler.OnOutTransitionEnter: 当虚拟布局出过渡进入时发布的订阅主题
+		EventHandler.OnOutTransitionExit: 当虚拟布局出过渡退出时发布的订阅主题
 	  Agent.name: 智能体的名称，程序中定义，不能修改
 	  Agent.card: 智能体的名牌图片
 	  Agent.uri: 智能体对应内容的uri
     -->
-	<Styles>
-		<Style name="default">
-			<Renderer >
-				<WorldOptions offsetY="99999"/>
-				<UiOptions mode="Overlay"/>
-				<CameraOptions fieldOfView="30" distance="32"/>
-			</Renderer>
-			<BackLayerS>
-				<Layer image="bg-back-1.png"/>
-			</BackLayerS>
-			<FrontLayerS>
-				<Layer image="bg-front-1.png"/>
-			</FrontLayerS>
-			<Card height="96" offset="100" column="6">
-				<CloseButton image="card-close.png">
-					<Anchor width="32" height="32" horizontal="right" vertical="top" marginH="4" marginV="2"/>
-				</CloseButton>
-				<SubjectS>
-					<Subject message="/XTC/IntegrationBoard/DirectOpen">
-						<Parameters>
-							<Parameter key="uid" value="{{card_uid}}" type="_"/>
-							<Parameter key="style" value="circular" type="string"/>
-							<Parameter key="source" value="assloud://" type="string"/>
-							<Parameter key="uri" value="{{content_uri}}" type="_"/>
-							<Parameter key="position_x" value="{{card_position_x}}" type="_"/>
-							<Parameter key="position_y" value="{{card_position_y}}" type="_"/>
-							<Parameter key="delay" value="0" type="float"/>
-						</Parameters>
-					</Subject>
-				</SubjectS>
-			</Card>
-			<AgentS>
-				<Agent name="Tuna" card="card-octopus.png" uri="XTC_DummyLayoutUnderwaterWorld/Tuna"/>
-				<Agent name="SpermWhale" card="card-octopus.png" uri="XTC_DummyLayoutUnderwaterWorld/Tuna"/>
-				<Agent name="SwordFish" card="card-octopus.png" uri="XTC_DummyLayoutUnderwaterWorld/Tuna"/>
-				<Agent name="HammerheadShark" card="card-octopus.png" uri="XTC_DummyLayoutUnderwaterWorld/Tuna"/>
-				<Agent name="Manta" card="card-octopus.png" uri="XTC_DummyLayoutUnderwaterWorld/Tuna"/>
-			</AgentS>
-		</Style>
-	</Styles>
-	<!-- 预创建的实例列表
+  <Styles>
+    <Style name="default">
+      <Renderer >
+        <WorldOptions offsetY="99999"/>
+        <UiOptions mode="Overlay"/>
+        <CameraOptions fieldOfView="30" distance="32"/>
+      </Renderer>
+      <BackLayerS>
+        <Layer image="bg-back-1.png"/>
+      </BackLayerS>
+      <FrontLayerS>
+        <Layer image="bg-front-1.png"/>
+      </FrontLayerS>
+      <Card height="96" offset="100" column="6">
+        <CloseButton image="card-close.png">
+          <Anchor width="32" height="32" horizontal="right" vertical="top" marginH="4" marginV="2"/>
+        </CloseButton>
+        <SubjectS>
+          <Subject message="/XTC/IntegrationBoard/DirectOpen">
+            <Parameters>
+              <Parameter key="uid" value="{{card_uid}}" type="_"/>
+              <Parameter key="style" value="circular" type="string"/>
+              <Parameter key="source" value="assloud://" type="string"/>
+              <Parameter key="uri" value="{{content_uri}}" type="_"/>
+              <Parameter key="position_x" value="{{card_position_x}}" type="_"/>
+              <Parameter key="position_y" value="{{card_position_y}}" type="_"/>
+              <Parameter key="delay" value="0" type="float"/>
+            </Parameters>
+          </Subject>
+        </SubjectS>
+      </Card>
+      <EventHandler>
+        <OnInTransitionEnterS>
+        </OnInTransitionEnterS>
+        <OnInTransitionExitS>
+        </OnInTransitionExitS>
+        <OnLayoutEnterS>
+          <Subject message="/XTC/WorldRenderer/Open">
+            <Parameters>
+              <Parameter key="uid" value="UnderwaterWorld" type="string"/>
+              <Parameter key="source" value="" type="string"/>
+              <Parameter key="uri" value="" type="string"/>
+              <Parameter key="delay" value="0" type="float"/>
+            </Parameters>
+          </Subject>
+        </OnLayoutEnterS>
+        <OnLayoutExitS>
+          <Subject message="/XTC/WorldRenderer/Close">
+            <Parameters>
+              <Parameter key="uid" value="UnderwaterWorld" type="string"/>
+              <Parameter key="delay" value="0" type="float"/>
+            </Parameters>
+          </Subject>
+        </OnLayoutExitS>
+        <OnOutTransitionEnterS>
+        </OnOutTransitionEnterS>
+        <OnOutTransitionExitS>
+        </OnOutTransitionExitS>
+      </EventHandler>
+      <AgentS>
+        <Agent name="Tuna" card="card-octopus.png" uri="XTC_DummyLayoutUnderwaterWorld/Tuna"/>
+        <Agent name="SpermWhale" card="card-octopus.png" uri="XTC_DummyLayoutUnderwaterWorld/Tuna"/>
+        <Agent name="SwordFish" card="card-octopus.png" uri="XTC_DummyLayoutUnderwaterWorld/Tuna"/>
+        <Agent name="HammerheadShark" card="card-octopus.png" uri="XTC_DummyLayoutUnderwaterWorld/Tuna"/>
+        <Agent name="Manta" card="card-octopus.png" uri="XTC_DummyLayoutUnderwaterWorld/Tuna"/>
+      </AgentS>
+    </Style>
+  </Styles>
+  <!-- 预创建的实例列表
       uid: 实例的唯一ID
       style: 使用的样式名
       uiRoot: UI挂载的根节点（需可见），空值时等于UI.slot
@@ -78,27 +112,27 @@
       worldRoot: World挂载的根节点（需可见），空值时等于World.slot
       worldSlot: World在worldRoot下的路径
     -->
-	<Instances>
-		<Instance uid="default" style="default" uiRoot="" uiSlot="" worldRoot="" worldSlot=""/>
-		<Instance uid="dummy" style="default" uiRoot="" uiSlot="" worldRoot="" worldSlot=""/>
-	</Instances>
-	<!-- 预加载 -->
-	<Preload>
-		<!-- 消息订阅的主题
+  <Instances>
+    <Instance uid="default" style="default" uiRoot="" uiSlot="" worldRoot="" worldSlot=""/>
+    <Instance uid="dummy" style="default" uiRoot="" uiSlot="" worldRoot="" worldSlot=""/>
+  </Instances>
+  <!-- 预加载 -->
+  <Preload>
+    <!-- 消息订阅的主题
           message: 消息
           Parameter.key: 参数的键
           Parameter.value: 参数的值
           Parameter.type: 参数的类型，支持的类型为string,int,float,bool
         -->
-		<Subjects>
-			<Subject message="/XTC/DummyLayoutUnderwaterWorld/Open">
-				<Parameters>
-					<Parameter key="uid" value="default" type="string"/>
-					<Parameter key="source" value="" type="string"/>
-					<Parameter key="uri" value="" type="string"/>
-					<Parameter key="delay" value="0" type="float"/>
-				</Parameters>
-			</Subject>
-		</Subjects>
-	</Preload>
+    <Subjects>
+      <Subject message="/XTC/DummyLayoutUnderwaterWorld/Open">
+        <Parameters>
+          <Parameter key="uid" value="default" type="string"/>
+          <Parameter key="source" value="" type="string"/>
+          <Parameter key="uri" value="" type="string"/>
+          <Parameter key="delay" value="0" type="float"/>
+        </Parameters>
+      </Subject>
+    </Subjects>
+  </Preload>
 </MyConfig>

@@ -46,6 +46,8 @@ namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
 
             instance.rootUI.gameObject.SetActive(true);
             instance.rootWorld.gameObject.SetActive(true);
+
+            instance.HandleOnLayoutEnter();
         }
 
         public void OnLayoutExit(string _layer, string _pattern)
@@ -61,6 +63,7 @@ namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
 
             instance.rootUI.gameObject.SetActive(false);
             instance.rootWorld.gameObject.SetActive(false);
+            instance.HandleOnLayoutExit();
         }
 
         public void OnInTransitionEnter(string _layer, string _pattern, float _duration)
@@ -74,6 +77,7 @@ namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
                 return;
             }
 
+            instance.HandleOnInTransitionEnter();
         }
 
         public void OnInTransitionExit(string _layer, string _pattern)
@@ -86,6 +90,7 @@ namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
                 logger_.Error("instance:${0}$ not found", _layer);
                 return;
             }
+            instance.HandleOnInTransitionExit();
         }
 
         public void OnOutTransitionEnter(string _layer, string _pattern, float _duration)
@@ -99,6 +104,7 @@ namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
                 return;
             }
 
+            instance.HandleOnOutTransitionEnter();
         }
 
         public void OnOutTransitionExit(string _layer, string _pattern)
@@ -111,8 +117,7 @@ namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
                 logger_.Error("instance:${0}$ not found", _layer);
                 return;
             }
-            instance.rootUI.gameObject.SetActive(false);
-            instance.rootWorld.gameObject.SetActive(false);
+            instance.HandleOnOutTransitionExit();
         }
 
     }

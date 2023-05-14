@@ -8,6 +8,7 @@ using LibMVCS = XTC.FMP.LIB.MVCS;
 using XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Proto;
 using XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.MVCS;
 using UnityEngine.EventSystems;
+using Unity.VisualScripting;
 
 namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
 {
@@ -76,6 +77,46 @@ namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
         {
             rootUI.gameObject.SetActive(false);
             rootWorld.gameObject.SetActive(false);
+        }
+
+        public void HandleOnInTransitionEnter()
+        {
+            Dictionary<string, object> variableS= new Dictionary<string, object>();
+            publishSubjects(style_.eventHandler.onInTransitionEnterS, variableS);
+        }
+
+        public void HandleOnInTransitionExit()
+        {
+            Dictionary<string, object> variableS= new Dictionary<string, object>();
+            publishSubjects(style_.eventHandler.onInTransitionExitS, variableS);
+        }
+
+        public void HandleOnLayoutEnter()
+        {
+            rootUI.gameObject.SetActive(true);
+            rootWorld.gameObject.SetActive(true);
+            Dictionary<string, object> variableS= new Dictionary<string, object>();
+            publishSubjects(style_.eventHandler.onLayoutEnterS, variableS);
+        }
+
+        public void HandleOnLayoutExit()
+        {
+            rootUI.gameObject.SetActive(false);
+            rootWorld.gameObject.SetActive(false);
+            Dictionary<string, object> variableS= new Dictionary<string, object>();
+            publishSubjects(style_.eventHandler.onLayoutExitS, variableS);
+        }
+
+        public void HandleOnOutTransitionEnter()
+        {
+            Dictionary<string, object> variableS= new Dictionary<string, object>();
+            publishSubjects(style_.eventHandler.onOutTransitionEnterS, variableS);
+        }
+
+        public void HandleOnOutTransitionExit()
+        {
+            Dictionary<string, object> variableS= new Dictionary<string, object>();
+            publishSubjects(style_.eventHandler.onOutTransitionExitS, variableS);
         }
 
         private void handleCreated()
@@ -185,6 +226,9 @@ namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
             //if(style_.renderer.uiOptions.mode == "Overlay")
             uiRefenrence_.renderer.GetComponent<Button>().onClick.AddListener(onRendererClick);
 
+            var caustics = rootWorld.transform.Find("AdjustRoot/Caustics").AddComponent<CausticsController>();
+            caustics.CausticsTex = rootAttachments.transform.Find("T_Caustics").GetComponent<RawImage>().texture as Texture2D;
+            caustics.FlowMapTex = rootAttachments.transform.Find("T_CausticFlowMap").GetComponent<RawImage>().texture as Texture2D;
         }
 
         private void onRendererClick()

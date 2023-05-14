@@ -6,10 +6,10 @@ using UnityEngine;
 public class CausticsController : MonoBehaviour
 {
     [Header("Textures"), SerializeField]
-    private Texture2D CausticsTex;
+    public Texture2D CausticsTex;
 
     [SerializeField]
-    private Texture2D FlowMapTex;
+    public Texture2D FlowMapTex;
 
     [Header("Scales"), SerializeField]
     private float GlobalScale = 1.0f;

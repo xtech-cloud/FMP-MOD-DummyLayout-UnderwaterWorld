@@ -69,6 +69,22 @@ namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
             public string uri { get; set; } = "";
         }
 
+        public class EventHandler
+        {
+            [XmlArray("OnInTransitionEnterS"), XmlArrayItem("Subject")]
+            public Subject[] onInTransitionEnterS { get; set; } = new Subject[0];
+            [XmlArray("OnInTransitionExitS"), XmlArrayItem("Subject")]
+            public Subject[] onInTransitionExitS { get; set; } = new Subject[0];
+            [XmlArray("OnLayoutEnterS"), XmlArrayItem("Subject")]
+            public Subject[] onLayoutEnterS { get; set; } = new Subject[0];
+            [XmlArray("OnLayoutExitS"), XmlArrayItem("Subject")]
+            public Subject[] onLayoutExitS { get; set; } = new Subject[0];
+            [XmlArray("OnOutTransitionEnterS"), XmlArrayItem("Subject")]
+            public Subject[] onOutTransitionEnterS { get; set; } = new Subject[0];
+            [XmlArray("OnOutTransitionExitS"), XmlArrayItem("Subject")]
+            public Subject[] onOutTransitionExitS { get; set; } = new Subject[0];
+        }
+
         public class Style
         {
             [XmlAttribute("name")]
@@ -84,6 +100,8 @@ namespace XTC.FMP.MOD.DummyLayoutUnderwaterWorld.LIB.Unity
             public Card card { get; set; } = new Card();
             [XmlArray("AgentS"), XmlArrayItem("Agent")]
             public Agent[] agentS { get; set; } = new Agent[0];
+            [XmlElement("EventHandler")]
+            public EventHandler eventHandler { get; set; } = new EventHandler();
         }
 
         [XmlArray("Styles"), XmlArrayItem("Style")]
