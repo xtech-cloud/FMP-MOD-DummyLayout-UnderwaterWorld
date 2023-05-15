@@ -103,6 +103,7 @@
         <Agent name="Manta" card="card-octopus.png" uri="XTC_DummyLayoutUnderwaterWorld/Tuna"/>
         <Agent name="Coral" card="card-octopus.png" uri="XTC_DummyLayoutUnderwaterWorld/Tuna"/>
         <Agent name="SeaSponge" card="card-octopus.png" uri="XTC_DummyLayoutUnderwaterWorld/Tuna"/>
+        <Agent name="Shell" card="card-octopus.png" uri="XTC_DummyLayoutUnderwaterWorld/Tuna"/>
       </AgentS>
     </Style>
   </Styles>
